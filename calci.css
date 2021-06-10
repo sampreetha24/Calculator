@@ -1,0 +1,79 @@
+
+.box{
+    position: relative;
+    /* display: flex; */
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: 90px;
+    width: 210px;
+    height: 359px;
+    background-color:rgb(236, 223, 223);
+    border-radius: 10px;
+}
+
+.console{
+    position: absolute;
+    
+    width: 100%;
+    height:90px ;
+    right: 0;
+    font-size: 1.8rem;
+    font-weight:300;
+    
+}
+
+.brown-color{
+    background-color: brown !important;
+    color: white;
+}
+.spl{
+    width: 102px !important;
+}
+
+.row1{
+  position: absolute;
+  display: flex;
+  top: 100px;
+
+}
+.row2{
+    position: absolute;
+    display: flex;
+    top:150px;
+    margin-top: 1px;
+    
+}
+.row3{
+    position: absolute;
+    display: flex;
+    top:201px;
+    margin-top: 1px;
+
+}
+
+.row4{
+    position: absolute;
+    display: flex;
+    top:252px;
+    margin-top: 1px;
+
+}
+.row5{
+    position: absolute;
+    display: flex;
+    top:304px;
+    margin-top: 1px;
+
+
+}
+
+
+.r > button{
+    margin: 1px;
+   width: 50px;
+   height:50px ;
+   font-size: 1.8rem;
+   font-weight:300;
+   border: none;
+   background-color:rgb	(253,245,226);
+}
